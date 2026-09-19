@@ -1,0 +1,6 @@
+{
+  "name": "NOIR & BEAN",
+  "description": "Specialty coffee, thoughtful food and a space designed for slow mornings and good conversations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
