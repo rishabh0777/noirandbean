@@ -1,27 +1,36 @@
 {
   "compilerOptions": {
     "target": "ES2022",
-    "experimentalDecorators": true,
     "useDefineForClassFields": false,
     "module": "ESNext",
-    "types": ["vite/client"],
+    "moduleResolution": "bundler",
+
     "lib": [
       "ES2022",
       "DOM",
       "DOM.Iterable"
     ],
-    "skipLibCheck": true,
-    "moduleResolution": "bundler",
-    "isolatedModules": true,
-    "moduleDetection": "force",
+
+    "types": [
+      "vite/client"
+    ],
+
     "allowJs": true,
     "jsx": "react-jsx",
+
     "paths": {
       "@/*": [
         "./*"
       ]
     },
-    "allowImportingTsExtensions": true,
+
+    "isolatedModules": true,
+    "moduleDetection": "force",
+
+    "skipLibCheck": true,
     "noEmit": true
-  }
+  },
+  "include": [
+    "**/*"
+  ]
 }
